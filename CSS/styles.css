@@ -5,8 +5,8 @@
 }
 
 body {
-    font-family: Graphik, Helvetica, Arial, sans-serif;
     max-height: 100vh;
+    font-family: graphik, Helvetica, Arial, sans-serif;
 }
 
 .hero {
@@ -76,7 +76,7 @@ header {
     text-transform: none;
 }
 
-span {
+.price span {
     display: flex;
     justify-content: center;
 }
@@ -98,6 +98,7 @@ span {
 
 .buy:hover {
     opacity: .8;
+    cursor: pointer;
 }
 
 .btn2 {
@@ -109,8 +110,8 @@ span {
 }
 
 .terms a {
-    color: white;
-    font-size: 12px;
+    color: lightgray;
+    font-size: 13px;
 }
 
 .signup {
@@ -133,7 +134,7 @@ span {
     color: white;
     text-transform: uppercase;
     text-align: center;
-    padding: 0 0 10px 0;
+    padding: 0 0 20px 0;
 }
 
 .view strong {
@@ -152,8 +153,8 @@ span {
 }
 
 .build-sec {
-    padding: 30px 40px 40px;
-    background-image: linear-gradient(to bottom, #1CC471, #272c34);
+    padding: 30px 40px;
+    background-image: linear-gradient(to bottom, #1CC471, #1e7449, #272c34);
     color: white;
     display: grid;
     text-transform: uppercase;
@@ -178,3 +179,70 @@ span {
     border: 2px solid white;
     border-radius: 4px;
 }
+
+.carousel {
+    background-color: #0B0C0F;
+}
+
+.title-area {
+    text-align: center;
+    padding: 88px 20px 50px;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.span {
+    color: #00ED82;
+    text-transform: uppercase;
+    margin: 0 0 -10px 0;
+}
+
+.title, .desc {
+    color: white;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding: 0 0 5px;
+}
+
+.desc {
+    font-size: 16px;
+}
+
+.desc span {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 16px;
+}
+
+.pic-library {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 70px;
+}
+
+.overlay {
+    position: relative;
+    color: white;
+}
+
+.text-box {
+    z-index: 1;
+    position: absolute;
+    padding: 20px;
+}
+
+.text-box h3 {
+    font-size: 25px;
+    padding: 10px 0;
+}
+
+.image img {
+    height: 450px;
+    width: 305px;
+    border-radius: 10px;
+}
+
